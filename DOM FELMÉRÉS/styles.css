@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#input {
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-bottom: 10px;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(161, 147, 174);
+}
+.elso-feladat,
+.masodik-feladat,
+.harmadik-feladat,
+.negyedik-feladat {
+  width: 100%;
+  border-bottom: 4px solid black;
+}
+#x,
+#y {
+  margin-top: 2%;
+}
+#y {
+  margin-bottom: 2%;
+}
+button {
+  border-radius: 4px;
+}
+.negyzet {
+  background-color: red;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+
+.fade-in {
+  animation: fadeIn 5s;
+}
+
+.fade-out {
+  animation: fadeOut 5s;
+}
+
+.harmadik-feladat {
+  margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.doboz {
+  position: absolute;
+  left: 40%;
+  top: 10px;
+  color: red;
+}
